@@ -1,38 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Decentralized Identity
 
-## Getting Started
+- Long-standing centralized Intermediaries, like the Government or Big Companies, are the ones who make and keep the ID Information of their Customer
+- This implies that the Customer have no Control over their Information relating to their Identification,
+  - who has Access to personally identifiable Information, and
+  - to what Extent
+- Decentralized Identity provides identity-related Information that is self-controlled, private, and portable
+- Decentralized Identity use decentralized Identifiers and Attestations as their Main Components
 
-First, run the development server:
+## Ceramic
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- Ceramic is a public, permissionless, open-source Protocol that offers Computation, State Transitions, and Consensus for all Data Structures on the decentralized Web
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Ceramic provides a decentralized Application Database
+- Developers can use the decentralized Application Database to reuse Data across Applications and automatically make them interoperable
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Ceramic is a public, decentralized, censorship-resistant Network for Managing mutable Information on the open Internet without Databases or Servers
+- In Ceramic all Content is stored in Smart Documents, which are append-only IPFS Logs where each Commit is signed by a Decentralized Identifier for Verifiability and then subsequently anchored in a Blockchain for Consensus
+- Ceramic is built on a Peer-to-Peer Network, therefore all Documents are openly discoverable and can be referenced by other Documents or queried by any other Participant on the Network
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### Decentralized Identity
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Decentralized Identity is a digital Identification Concept where People, companies, and Items are in Charge of their Data and can share it selectively without relying on a centralized Authority
+- Decentralized Identity gives People Control and Ownership over the Information associated with their Identities rather than having it stored on a central Server or managed by a third Party
+- Decentralized Identity is a self-owned, independent Identity that enables trusted Data Exchange
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Decentralized Identifiers
 
-## Learn More
+- Decentralized Identifiers are issued, held, and controlled by Individuals
+- Since Decentralized Identifiers are kept on a Peer-to-Peer Networks or Distributed Ledgers (Blockchains), they are globally unique, highly available, and cryptographically verifiable
+- A Decentralized Identifier can be associated with an Individuals, a Group or a Governmental Entity
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Decentralized Identifiers are designed to offer a uniform Process for Developing, Maintaining, and Exchanging Digital Identities independent of any Company or Technology
+- Decentralized Identifiers can be maintained and controlled by the Person or Entity to which it belongs and utilized across various Systems and Applications
